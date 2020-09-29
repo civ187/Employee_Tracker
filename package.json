@@ -1,5 +1,5 @@
 {
-  "name": "Employee_Tracker",
+  "name": "employee_tracker",
   "version": "1.0.0",
   "description": "AS A business owner\r I WANT to be able to view and manage the departments, roles, and employees in my company\r SO THAT I can organize and plan my business",
   "main": "index.js",
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/civ187/Employee_Tracker#readme",
   "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "clear": "^0.1.0",
     "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
     "inquirer": "^7.3.3",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0"

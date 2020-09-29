@@ -11,13 +11,13 @@ GIVEN a command-line application that accepts user input
 
 WHEN I start the application  
 THEN I am presented with the following options:
-- `view all departments`
-- `view all roles`
-- `view all employees`
-- `add a department`
-- `add a role`
-- `add an employee`
-- `update an employee role`
+- `view all departments`X
+- `view all roles`X
+- `view all employees`X
+- `add a department`X
+- `add a role`X
+- `add an employee`X
+- `update an employee role`X
 ---
 WHEN I choose to `view all departments`  
 THEN I am presented with a formatted table showing:  
@@ -72,11 +72,11 @@ THEN I am prompted to select an employee to update and their new role and this i
 #Bonus  
 See if you can add some additional functionality to your application, such as the ability to:  
 
- - Update employee managers.
+ - `Update employee managers`.
 
- - View employees by manager.
+ - `View employees by manager`.
 
- - View employees by department.
+ - `View employees by department`.XXXX
 
  - Delete  
    - departments
